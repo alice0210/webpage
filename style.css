@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header {
@@ -13,7 +14,7 @@ body {
     justify-content: space-between;
     background: #1F2937;
     align-items: center;
-    margin-bottom: 0px;
+    align-self: stretch;
 }
 
 .logo {
@@ -42,6 +43,7 @@ a {
     padding: 16px;
     margin-top: 0px;
     gap: 16px;
+    align-self: stretch;
 }
 
 .hero-text {
@@ -58,6 +60,8 @@ a {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    padding: 4px 16px;
+    border-radius: 8px;
 }
 
 .random {
@@ -72,6 +76,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 16px;
+    align-self: stretch;
 }
 
 figure {
@@ -81,10 +86,17 @@ figure {
     justify-content: center;
     font-size: 36px;
     font-style: italic;
+    width: 800px;
+    padding: 8px;
+}
+
+figcaption {
+    text-align: end;
 }
 
 img {
     width: 300px;
+    border-radius: 4px;
 }
 
 .sign-up {
@@ -93,7 +105,12 @@ img {
     display: flex;
     justify-content: center;
     gap: 16px;
+    width: 500px;
+    padding: 32px;
+    border-radius: 4px;
 }
+
+
 
 .footer {
     background: #1F2937;
@@ -101,4 +118,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 16px;
+    align-self: stretch;
 }

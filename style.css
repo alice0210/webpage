@@ -38,7 +38,7 @@ a {
 .hero {
     background: #1F2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 16px;
     margin-top: 0px;
     gap: 48px;
@@ -46,12 +46,9 @@ a {
     align-items: center;
 }
 
-.left {
-    width: 700px;
-}
-
 .right > img {
-    width: 700px;
+    max-width: 100%;
+    height:auto;
 }
 
 
@@ -120,7 +117,8 @@ figcaption {
 }
 
 .image > img {
-    width: 400px;
+    max-width: 100%;
+    height:auto;
     border-radius: 4px;
 }
 

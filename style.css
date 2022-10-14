@@ -38,7 +38,7 @@ a {
     background: #1F2937;
     display: flex;
     justify-content: center;
-    padding: 16px 128px;
+    padding: 64px 128px;
     margin-top: 0px;
     gap: 64px;
     align-self: stretch;
@@ -81,15 +81,15 @@ button {
     font-weight: 900;
     display: flex;
     justify-content: center;
-    padding-top: 32px;
-    padding-bottom: 16px;
+    padding-top: 48px;
+    padding-bottom: 32px;
 }
 
 .content {
     display: flex;
     justify-content: center;
     gap: 32px;
-    padding: 8px 128px;
+    padding: 16px 128px;
 }
  .subtext {
     display: flex;
@@ -104,7 +104,7 @@ figure {
     align-items: center;
     background-color: #E5E7EB;
     flex: 1 1 auto;
-    margin: 16px 0px;
+    margin: 32px 0px;
 }
 
 .quote {
@@ -134,9 +134,7 @@ figcaption {
     gap: 120px;
     padding: 48px 128px;
     border-radius: 8px;
-    margin-bottom: 16px;
-    margin-left: 128px;
-    margin-right: 128px;
+    margin: 32px 128px;
 }
 
 .action-text {
@@ -156,4 +154,5 @@ figcaption {
     align-items: center;
     padding: 16px;
     align-self: stretch;
+    margin-top: 16px;
 }
